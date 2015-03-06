@@ -1,8 +1,8 @@
 name: uSkyBlock
 main: us.talabrek.ultimateskyblock.uSkyBlock
 version: ${pom.version}
-description: Ultimate SkyBlock.
-author: Talabrek (based on code by Qgel and others)
+description: LandBlock.
+author: ViZartDk (based on code by Talabrek, Qgel and others)
 load: STARTUP
 depend: [Vault, WorldGuard, WorldEdit]
 
