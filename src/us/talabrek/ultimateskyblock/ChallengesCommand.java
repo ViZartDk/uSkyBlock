@@ -61,7 +61,9 @@ public class ChallengesCommand implements CommandExecutor, TabCompleter {
 
 		if (split.length == 0) 
 		{
-			int rankComplete = 0;
+            player.openInventory(uSkyBlock.getInstance().displayChallengeGUI(player));
+            /**
+            int rankComplete = 0;
 			sender.sendMessage(ChatColor.GOLD + Settings.challenges_ranks[0] + ": " + uSkyBlock.getInstance().getChallengesFromRank(player, Settings.challenges_ranks[0]));
 			for (int i = 1; i < Settings.challenges_ranks.length; i++) 
 			{
@@ -73,6 +75,7 @@ public class ChallengesCommand implements CommandExecutor, TabCompleter {
 			}
 			sender.sendMessage(ChatColor.YELLOW + "Use /c <name> to view information about a challenge.");
 			sender.sendMessage(ChatColor.YELLOW + "Use /c complete <name> to attempt to complete that challenge.");
+            */
 		} 
 		else if (split.length == 1) 
 		{
